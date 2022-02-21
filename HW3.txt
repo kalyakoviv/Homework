@@ -8,17 +8,11 @@
 - Mobile testing - git branch Mobile_testing
 
 2. Запушить все ветки на внешний репозиторий -  git push -u origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
-<<<<<<< HEAD
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-4. Запушить структуру багрепорта на внешний репозиторий
-5. Вмержить ветку Bag Reports в Main
-=======
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - git checkout Bag_Reports ; vim Bag_Reports.txt
-4. Запушить структуру багрепорта на внешний репозиторий -  git add . && git commit -m "Bag_Reports.txt" && git push
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репортаv - git checkout Bag_Reports ; vim Bag_Reports.txt
+4. Запушить структуру багрепорта на внешний репозиторий - git add . && git commit -m "Bag_Reports.txt" && git push
 5. Вмержить ветку Bag Reports в Main - git checkout main && git merge Bag_Reports
->>>>>>> Bag_Reports
-6. Запушить main на внешний репозиторий.
-7. В ветке CheckLists набросать структуру чек листа.
-8. Запушить структуру на внешний репозиторий
+6. Запушить main на внешний репозиторий - git push
+7. В ветке CheckLists набросать структуру чек листа - git checkout CheckLists ; vim CheckLists.txt
+8. Запушить структуру на внешний репозиторий - git add . && git commit -m "CheckLists.txt" && git push
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-10. Синхронизировать Внешнюю и Локальную ветки Main
+10. Синхронизировать Внешнюю и Локальную ветки Main - git checkout main ; git pull
