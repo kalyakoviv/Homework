@@ -1,5 +1,11 @@
 SQL_HW_1
 
+IP: 159.69.151.133
+Port: 5056
+DB: in DB Clumn
+User: padawan_user_x
+Pass: 123
+
  1. Вывести все поля и все строки - select * from students;
  2. Вывести всех студентов в таблице - select * from students;
  3. Вывести только Id пользователей - select id from students;
